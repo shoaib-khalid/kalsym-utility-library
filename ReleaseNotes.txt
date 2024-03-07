@@ -1,0 +1,9 @@
+-----------------
+kalsym-utility-library-1.0-FINAL
+-----------------
+Added slf4j logging wrapper to supports logging
+1. logger name com.kalsym.utility is used
+2. sample is given below 
+	<logger name="com.kalsym.utility" level="INFO" additivity="false">
+		<appender-ref ref="APPLICATION"/>
+	</logger>
